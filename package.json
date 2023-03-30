@@ -1,0 +1,30 @@
+{
+  "name": "finance-app",
+  "version": "1.0.0",
+  "description": "app for managing persolan finance",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/Mserver.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix client"
+  },
+  "author": "Ivan Mušković",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.36.0",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.1",
+    "validator": "^13.9.0"
+  }
+}
