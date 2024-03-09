@@ -50,3 +50,4 @@ exports.updateBudget = asyncHandler(async (req, res) => {
     budget: updatedBudget,
   });
 });
+

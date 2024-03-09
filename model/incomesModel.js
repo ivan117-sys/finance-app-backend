@@ -12,6 +12,11 @@ const incomesSchema = mongoose.Schema(
       required: [true, 'Please add a number value'],
     },
 
+    name: {
+      type: String,
+      required: [false, 'Please add a text value'],
+    },
+
     month: {
       type: String,
       required: [true, 'Please add a text value'],
